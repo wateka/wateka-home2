@@ -26,8 +26,8 @@
   --base-80: #111111cc;
   --white: #ffffff;
 
-  --primary: #2337e4;
-  --primary-80: #2336e4cc;
+  --primary: #4052f8;
+  --primary-hover: #4052f8cc;
   --primary-text-shadow: 0 0 10px #3552f533;
   --primary-box-shadow: 0 5px 10px #3552f511;
 
@@ -64,14 +64,14 @@ a {
 
 h2 {
   font-family: var(--font-emphasized);
-  font-size: 3rem;
+  font-size: 2rem;
   margin-block: 2rem;
   font-weight: 500;
 }
 
 h3 {
   font-family: var(--font-emphasized);
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-block: 2rem;
   font-weight: 500;
 }
@@ -79,6 +79,10 @@ h3 {
 p,
 a {
   line-height: 1.6em;
+}
+
+section {
+  margin-block: 4rem;
 }
 
 .nuxt-content {

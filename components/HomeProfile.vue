@@ -10,8 +10,8 @@
         主にWeb開発をしているエンジニアです。フロントエンドが得意です。
       </div>
       <div id="social">
-        <ButtonLink text="GitHub" link="https://github.com/wateka"/>
-        <ButtonLink text="AtCoder" link="https://atcoder.jp/users/wateka"/>
+        <ButtonLink text="GitHub" link="https://github.com/wateka" external/>
+        <ButtonLink text="AtCoder" link="https://atcoder.jp/users/wateka" external/>
       </div>
     </div>
   </div>
