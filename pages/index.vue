@@ -1,4 +1,3 @@
 <template>
   <HomeProfile />
-  <HomeArrow />
 </template>

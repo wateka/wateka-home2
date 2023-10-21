@@ -16,8 +16,11 @@ html {
 }
 
 #page-container {
-  padding-block-start: 4rem;
   margin-inline: auto;
-  width: var(--max-width);
+  padding-block-start: 4rem;
+  padding-inline: 1rem;
+  width: calc(100% - 2rem);
+  max-width: var(--max-width);
+  min-height: calc(100lvh - 12rem);
 }
 </style>

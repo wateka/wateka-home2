@@ -1,23 +1,36 @@
 <template>
-  <div class="profile_link">
-    <nuxt-link class="profile_link__avatar" to="/profile">
-      <div class="profile_link__avatar_icon">
-        <img src="~/assets/images/avatar.webp" alt="watekaのアバター" />
+  <div id="home-profile">
+    <div id="avatar">
+      <img src="~/assets/images/avatar.webp" alt="watekaのアバター"/>
+    </div>
+    
+    <div id="text">
+      <div id="name">wateka</div>
+      <div id="introduction">
+        主にWeb開発をしているエンジニアです。フロントエンドが得意です。
       </div>
-      <div class="profile_link__text">プロフィールはこちら</div>
-    </nuxt-link>
+      <div id="social">
+        <ButtonLink text="GitHub" link="https://github.com/wateka"/>
+        <ButtonLink text="AtCoder" link="https://atcoder.jp/users/wateka"/>
+      </div>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.profile_link {
-  display: flex;
-  width: 100%;
-  height: calc(95vh - 3.6rem - 5rem);
-  justify-content: center;
-  align-items: center;
+#home-profile {
+  display: grid;
+  gap: 2rem;
+  margin-block: 2rem;
+  padding-inline: 1rem;
+  grid-template-columns: 10rem 1fr;
+  width: calc(100% - 2rem);
 
-  &__avatar_icon {
+  @include smartphone {
+    grid-template-columns: 1fr;
+  }
+
+  #avatar {
     display: block;
     margin-inline: auto;
     width: 10rem;
@@ -30,22 +43,20 @@
     }
   }
 
-  &__text {
-    display: block;
-    text-align: center;
-    margin-block-start: 0.5rem;
-    font-size: 0.9rem;
-    font-family: var(--font-emphasized);
-  }
+  #text {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
 
-  &__avatar {
-    color: var(--base-60);
-    transition: all 0.3s;
+    #name {
+      font-size: 2rem;
+      font-family: var(--font-emphasized);
+    }
 
-    &:hover {
-      color: var(--base-80);
-      text-decoration: none;
-      transform: scale(1.04);
+    #social {
+      display: flex;
+      gap: 0.6rem;
     }
   }
 }

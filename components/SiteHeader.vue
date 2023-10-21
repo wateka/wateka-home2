@@ -3,14 +3,11 @@
     <div class="header__inner">
       <NuxtLink class="header__home_link" to="/">wateka.dev</NuxtLink>
       <div class="header__navigation">
-        <NuxtLink class="header__navigation_item" to="/profile">
-          Profile
-        </NuxtLink>
         <NuxtLink class="header__navigation_item" to="/#projects">
           Projects
         </NuxtLink>
-        <NuxtLink class="header__navigation_item" to="/#articles">
-          Articles
+        <NuxtLink class="header__navigation_item" to="/#posts">
+          Posts
         </NuxtLink>
       </div>
       <div class="header__icons">

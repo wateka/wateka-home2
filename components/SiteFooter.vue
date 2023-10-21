@@ -1,9 +1,16 @@
 <template>
   <div class="footer">
     <div class="footer__inner">
-      <nuxt-link to="/profile">Profile</nuxt-link>
-      <nuxt-link to="/#projects">Projects</nuxt-link>
-      <nuxt-link to="/#articles">Articles</nuxt-link>
+
+      <div class="footer__nav">
+        <nuxt-link to="/#projects">Projects</nuxt-link>
+        <nuxt-link to="/#posts">Posts</nuxt-link>
+      </div>
+
+      <div class="footer__license">
+        (C) 2023 wateka
+      </div>
+
     </div>
   </div>
 </template>
@@ -16,12 +23,22 @@
 
   &__inner {
     display: flex;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
     margin: 0 auto;
     width: calc(100% - 2rem);
     min-height: 5rem;
     padding: 1rem;
     max-width: var(--max-width);
+  }
+
+  &__nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__license {
+    color: var(--base-60);
   }
 }
 </style>
