@@ -1,13 +1,13 @@
 <template>
   <div class="profile_section">
     <div class="profile_section__avatar">
-      <img src="~/assets/avatar.webp" alt="watekaのアバター" />
+      <img src="~/assets/images/avatar.webp" alt="watekaのアバター" />
     </div>
     <div class="profile_section__information">
       <div class="profile_section__name">wateka</div>
       <div class="profile_section__links">
         <a class="profile_section__link" href="https://github.com/wateka">
-          <span class="profile_section__link_image"><img src="~/assets/GitHub-Mark-32px.png"/></span>
+          <span class="profile_section__link_image"><img src="~/assets/images/GitHub-Mark-32px.png"/></span>
           <span class="profile_section__link_text">GitHubはこちら</span>
         </a>
       </div>
