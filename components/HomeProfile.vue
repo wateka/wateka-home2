@@ -1,7 +1,7 @@
 <template>
   <div id="home-profile">
     <div id="avatar">
-      <img src="~/assets/images/avatar.webp" alt="watekaのアバター"/>
+      <img src="~/assets/images/avatar.webp" alt="watekaのアバター" width="160"/>
     </div>
     
     <div id="text">

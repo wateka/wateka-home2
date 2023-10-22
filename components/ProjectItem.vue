@@ -17,7 +17,7 @@
 <template>
   <div class="project-item">
     <div class="image">
-      <img :src="image" :alt="`${props.name}のサムネイル`"/>
+      <img :src="image" :alt="`${props.name}のサムネイル`" width="640"/>
     </div>
     <div class="detail">
       <div class="name">

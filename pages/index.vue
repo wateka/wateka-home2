@@ -1,3 +1,10 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: "wateka.dev",
+  description: "主にWeb開発をしているエンジニア wateka のページです。"
+})
+</script>
+
 <template>
   <HomeProfile />
 

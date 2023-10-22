@@ -12,7 +12,7 @@
       </div>
       <div class="header__icons">
         <a class="header__icon" href="https://github.com/wateka" target="new">
-          <img src="~/assets/images/GitHub-Mark-32px.png" />
+          <img src="~/assets/images/GitHub-Mark-32px.png" alt="watekaのGitHubへのリンク" width="32"/>
         </a>
       </div>
     </div>
