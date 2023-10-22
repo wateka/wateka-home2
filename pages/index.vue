@@ -11,6 +11,12 @@ useSeoMeta({
   <section>
     <h2 id="projects">Projects</h2>
     <ProjectList>
+        <ProjectItem
+          name="idee"
+          imageFileName="idee.webp"
+          description="Web上で動く、ピアノロール式の作曲アプリケーションです。"
+          projectUrl="https://idee.wateka.dev/"
+        />
       <ProjectItem
         name="コード当てゲーム"
         imageFileName="chord_game.webp"
