@@ -28,8 +28,8 @@
       </div>
     </div>
     <div class="links">
-      <ButtonLink text="サイトを見る" :link="props.projectUrl" external primary />
-      <ButtonLink text="GitHub" :link="props.githubUrl" external />
+      <ButtonLink v-if="props.projectUrl" text="サイトを見る" :link="props.projectUrl" external primary/>
+      <ButtonLink v-if="props.githubUrl" text="GitHub" :link="props.githubUrl" external />
     </div>
   </div>
 </template>
@@ -75,7 +75,7 @@
 
   .links {
     display: flex;
-    gap: 1rem;
+    gap: 0.6rem;
     margin-block: 1rem;
   }
 }
