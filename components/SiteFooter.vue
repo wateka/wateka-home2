@@ -8,7 +8,7 @@
       </div>
 
       <div class="footer__license">
-        (C) 2023 wateka
+        (C) 2024 wateka
       </div>
 
     </div>
