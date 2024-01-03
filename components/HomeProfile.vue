@@ -11,6 +11,7 @@
       </div>
       <div id="social">
         <ButtonLink text="GitHub" link="https://github.com/wateka" external/>
+        <ButtonLink text="Bluesky" link="https://bsky.app/profile/wateka.bsky.social" external/>
         <ButtonLink text="AtCoder" link="https://atcoder.jp/users/wateka" external/>
       </div>
     </div>
