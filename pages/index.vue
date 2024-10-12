@@ -12,6 +12,12 @@ useSeoMeta({
     <h2 id="projects">Projects</h2>
     <ProjectList>
         <ProjectItem
+          name="チャット家計簿"
+          imageFileName="chat-kakeibo.webp"
+          description="Discord bot を利用して、出費を管理できる家計簿ツールです。"
+          githubUrl="https://github.com/wateka/chat-kakeibo-on-discord"
+        />
+        <ProjectItem
           name="idee"
           imageFileName="idee.webp"
           description="Web上で動く、ピアノロール式の作曲アプリケーションです。"
