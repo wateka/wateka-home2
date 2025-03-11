@@ -12,6 +12,12 @@ useSeoMeta({
     <h2 id="projects">Projects</h2>
     <ProjectList>
         <ProjectItem
+          name="Listen it, ____!"
+          imageFileName="listen-it-logo.webp"
+          description="友達に曲を送ってもらうと、自動であなたの Spotify プレイリストに入る、音楽共有アプリです。"
+          projectUrl="https://listen-it.wateka.dev"
+        />
+        <ProjectItem
           name="チャット家計簿"
           imageFileName="chat-kakeibo.webp"
           description="Discord bot を利用して、出費を管理できる家計簿ツールです。"
